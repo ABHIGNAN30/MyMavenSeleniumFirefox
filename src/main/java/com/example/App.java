@@ -24,7 +24,7 @@ public class App {
 
         // ✅ Firefox setup for Ubuntu / Jenkins
         FirefoxOptions options = new FirefoxOptions();
-        options.setBinary("/usr/bin/firefox");
+        
 
         // 🔥 IMPORTANT FIXES
         options.addArguments("--headless");
